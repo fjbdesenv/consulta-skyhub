@@ -1,11 +1,15 @@
 <template>
-  <nav>
-    <router-link to="/">Inicio</router-link> |
-    <router-link to="/sobre">Sobre</router-link>
-  </nav>
-  <router-view/>
+  <Menu/>
 </template>
 
-<style lang="scss">
-  @import '@/assets/sass/bootstrap.scss';
-</style>
+<script>
+  import Menu from '@/components/Menu.vue';
+  import '@/assets/sass/style.scss';
+
+  export default {
+    name: 'App',
+    components:{
+      Menu
+    }
+  }
+</script>
