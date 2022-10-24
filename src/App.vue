@@ -13,3 +13,34 @@
     }
   }
 </script>
+
+<style lang="scss">
+  @import '@/assets/sass/style.scss';
+  
+  #app{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .container{
+    color: $cor-primaria;
+    background-color: $cor-secundaria;
+
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 1px $cor-tenciaria;
+
+    min-height: 400px;
+    overflow-y: auto;
+
+    transition: all 0.5s;
+
+    &:hover{
+      box-shadow: 1px 1px 1px 1px $cor-primaria;
+    }
+  } 
+
+  .title{
+      color: $cor-branca;
+      margin: 1rem;
+    }
+</style>

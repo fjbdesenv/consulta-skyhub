@@ -1,6 +1,8 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
+  <div class="container flex center">
+    <header>
+      <h1 class="title">Bem vindo!</h1>
+    </header>
   </div>
 </template>
 

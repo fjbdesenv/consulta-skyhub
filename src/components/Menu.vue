@@ -14,13 +14,14 @@
         padding: 1rem;
 
         .menu-item{
-            color: $cor-tenciaria;
-            background-color: $cor-secundaria;
+            color: $cor-quaternaria;
+            background-color: $cor-primaria;
             box-shadow: 1px  1px  1px  1px $cor-tenciaria;
             
             padding: 0.5rem;
             margin: 0.5rem;
             
+            border: 1px solid $cor-preta;
             border-radius: 10px;
 
             font-size: 1.5rem;
@@ -28,8 +29,8 @@
 
             transition: all 0.5s;
             &:hover{
-                color: $cor-quaternaria;
-                background-color: $cor-tenciaria;
+                color: $cor-primaria;
+                background-color: $cor-branca;
                 box-shadow: 2px  2px  2px  2px $cor-secundaria;
             }
         }

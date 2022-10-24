@@ -1,6 +1,8 @@
 <template>
-  <div class="pedidos">
-    <h1>Pedidos</h1>
+  <div class="container flex center">
+    <header>
+      <h1 class="title">Pedidos</h1>
+    </header>
   </div>
 </template>
 

@@ -1,0 +1,13 @@
+.container{
+    margin-top: 2rem;
+
+    padding: 1rem;
+
+    &.flex{
+        display: flex;
+        &.center{
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
