@@ -3,4 +3,7 @@ const { defineConfig } = require('@vue/cli-service');
 module.exports = defineConfig({
   transpileDependencies: true,
   lintOnSave: false,
+  devServer:{
+    proxy: "https://skyhub.com.br/"
+  }
 });
