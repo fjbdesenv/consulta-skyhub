@@ -15,8 +15,9 @@
 </template>
 
 <script>
-import orders from "@/assets/doc/data.json";
+import { mapGetters } from "vuex";
 import Order from "@/components/Order.vue";
+import orders from "@/assets/doc/data.json";
 
 export default {
   name: 'PedidoView',
@@ -28,6 +29,16 @@ export default {
   },
   components:{
     Order
+  },
+  computed:{
+    ...mapGetters([
+      'loged'
+    ])
+  },
+  created(){
+    if (!this.loged){
+      this.$router.push({name: 'login'});
+    }  
   }
 };
 

@@ -1,5 +1,6 @@
 <template>
   <Menu/>
+  <router-view/>
 </template>
 
 <script>
@@ -30,6 +31,8 @@
     box-shadow: 1px 1px 1px 1px $cor-tenciaria;
 
     height: 500px;
+    width: 90%;
+ 
 
     transition: all 0.5s;
 

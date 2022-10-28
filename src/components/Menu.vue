@@ -3,9 +3,22 @@
         <router-link class="menu-item" to="/">Inicio</router-link> 
         <router-link class="menu-item" to="/pedido">Pedidos</router-link>
         <router-link class="menu-item" to="/sobre">Sobre</router-link>
+        <router-link @click="logof()" class="menu-item" to="/login">Sair</router-link>
     </nav>
-  <router-view/>
 </template>
+
+<script>
+import { mapMutations } from 'vuex';
+
+export default {
+    name: 'Menu',
+    methods:{
+        ...mapMutations(['logof'])
+    }
+
+}
+
+</script>
 
 <style lang="scss" scoped>
     @import '@/assets/sass/variabes.scss';

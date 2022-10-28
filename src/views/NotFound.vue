@@ -7,8 +7,14 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'InicioView',
+  computed:{
+    ...mapGetters([
+      'loged'
+    ])
+  }
 };
 </script>

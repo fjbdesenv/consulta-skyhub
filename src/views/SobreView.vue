@@ -17,9 +17,20 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'SobreView',
+  computed:{
+    ...mapGetters([
+      'loged'
+    ])
+  },
+  created(){
+    if (!this.loged){
+      this.$router.push({name: 'login'});
+    }  
+  }
 };
 
 </script>
