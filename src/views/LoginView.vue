@@ -13,7 +13,7 @@
                 <label for="senha">Senha: </label><input name="email" type="password" v-model="senha">
             </p>
             <p>
-                <button class="btn btn-primary" @click="checkLogin()" >
+                <button class="btn" @click="checkLogin()" >
                     Login
                 </button>
             </p>
@@ -46,3 +46,30 @@ export default{
 } 
 
 </script>
+
+<style lang="scss">
+    @import "@/assets/sass/variabes.scss";
+    .login{
+        p{
+            margin: 1.5rem;
+            label{
+                font-size: 1.2rem;
+            }
+            input{
+                border-radius: 0.5rem;
+                padding: 0.25rem;
+            }
+            .btn{
+                padding: 10px;
+                border-radius: 4px;
+                background-color: $cor-primaria;
+                color: $cor-branca;
+                transition: all 1s;
+                &:hover{
+                    color: $cor-tenciaria;
+                    border-color: $cor-branca;    
+                }
+            }
+        }
+    }
+</style>
