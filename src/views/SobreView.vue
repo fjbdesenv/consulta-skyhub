@@ -28,9 +28,6 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/sass/variabes.scss';
 
-.container{
-  flex-direction: column;
-}  
 .content p{
   font-size: 1.5rem;
   color: $cor-quaternaria;

@@ -29,8 +29,7 @@
     border-radius: 1rem;
     box-shadow: 1px 1px 1px 1px $cor-tenciaria;
 
-    min-height: 400px;
-    overflow-y: auto;
+    height: 500px;
 
     transition: all 0.5s;
 

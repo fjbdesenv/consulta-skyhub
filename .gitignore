@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+# files with variables of ambient
+*/variables.js
 
 # local env files
 .env.local
