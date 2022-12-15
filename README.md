@@ -15,16 +15,20 @@ O projeto pode ser acessado em https://consultaskyhub.netlify.app/.
 
 ### 👀 Imagens de projeto
 
-Menu
+<p>Menu</p>
+
 [![menu.png](https://i.postimg.cc/zXHWskBv/menu.png)](https://postimg.cc/9rVrTZyH)
 
-Tela inicial
+<p>Tela inicial</p>
+
 [![inicio](https://i.postimg.cc/7Lw2T8NJ/inicio.png)](https://postimg.cc/zy2B9Q6q)
 
-Tela de login
+<p>Tela de login</p>
+
 [![login.png](https://i.postimg.cc/kgr8qt6c/login.png)](https://postimg.cc/JGqtQ0QD)
 
-Tela de consulta de pedidos
+<p>Tela de consulta de pedidos</p>
+
 [![pedidos.png](https://i.postimg.cc/XvLyfH2H/pedidos.png)](https://postimg.cc/6773w0xn)
 
 
